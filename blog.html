@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <!-- daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <section class=" h-24 border bg-stone-50 ">
+            <nav class="w-11/12 mx-auto pt-2  ">
+                <div class="navbar bg-stone-50">
+                    <div class="navbar-start ">
+                      <button class="btn w-24 font-bold bg-lime-300 hover:bg-lime-400 text-base">Blog</button>
+                        
+                    </div>
+                    <div class="navbar-center">
+                      <img src="B10A5-DOM-Quest-Build-and-Manipulate/assets/logo.png" alt="">
+                      <a class="btn btn-ghost text-lg font-medium">Feel For Bangladesh</a>
+                    </div>
+                    <div class="navbar-end">
+                      <div class="flex gap-1 items-center">
+                        <img src="B10A5-DOM-Quest-Build-and-Manipulate/assets/coin.png" alt="">
+                        <h2 id="my-balance" class="font-medium text-zinc-500">5500 </h2>
+                        <h3 class="font-medium text-zinc-500">BDT</h3>
+                      </div>
+                    </div>
+                  </div>
+            </nav>
+          </section>
+    </header>
+    <main>
+        <section>
+          <div>
+            <h1 class="text-2xl font-bold my-6 ml-6">Important FAQ ?</h1>
+          </div>
+            <div class="w-11/12 flex flex-col mx-auto ">
+                <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border  ">
+                    <div class="collapse-title text-xl font-medium">What is the Document Object Model(DOM)?</div>
+                    <div class="collapse-content">
+                      <p>Document Object Model are like a tree. DOM represents the structure of the document as a tree of objects, allowing you to manipulate its content and visual presentation.. </p>
+                    </div>
+                </div>
+                <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+                    <div class="collapse-content">
+                      <p>Many to select an element form Dom. I can select an element by a Tag name, class name,id name. the selector are getElementByTagName, getElementsByclassName, getElementById, querySelector and querySelectorAll are also a selector</p>
+                    </div>
+                </div>
+                  <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why it's useful?</div>
+                    <div class="collapse-content">
+                      <p>Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the.</p>
+                    </div>
+                </div>
+                  <div tabindex="0" class="collapse collapse-arrow border-base-300 bg-base-200 border">
+                    <div class="collapse-title text-xl font-medium">How do you manipulate an elements attributes and styles using the DOM?</div>
+                    <div class="collapse-content">
+                      <p>I can manipulate an elements my seting setAttribute() method.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
